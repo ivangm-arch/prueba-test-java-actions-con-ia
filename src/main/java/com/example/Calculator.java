@@ -8,4 +8,8 @@ public class Calculator {
     public double restar(double first, double second) {
         return first - second;
     }
+
+    public double multiplicar(double first, double second) {
+        return first * second;
+    }
 }

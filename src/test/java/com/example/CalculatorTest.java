@@ -16,4 +16,9 @@ class CalculatorTest {
     void restarDosNumeros() {
         assertEquals(2.0, calculator.restar(5.0, 3.0));
     }
+
+    @Test
+    void multiplicarDosNumeros() {
+        assertEquals(12.0, calculator.multiplicar(3.0, 4.0));
+    }
 }
